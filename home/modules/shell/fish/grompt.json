@@ -1,0 +1,17 @@
+[
+	"fg:yellow",
+  "${spwd}",
+  "fg:green",
+  "exec:fish -c 'git_branch'",
+  {
+    "git_status_noclean": ["fg:red", " (+)"]
+  },
+  {
+    "git_status_clean": []
+  },
+  "fg:blue",
+	"exec:fish -c 'nix_shell'",
+	"fg:green",
+  ": "
+]
+
