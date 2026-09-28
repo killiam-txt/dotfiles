@@ -29,7 +29,6 @@
     git-credential-manager
     pipewire
     pulseaudio
-    xdg-desktop-portal-wlr
     (ffmpeg.override { withNvenc = true; })
 
     # notifications
